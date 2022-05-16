@@ -1,5 +1,7 @@
 # vcvarsForPS
 
+Run this script to export all Visual Studio's environment variables into PowerShell.
+
 Usage
 ------------
  
