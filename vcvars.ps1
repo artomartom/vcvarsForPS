@@ -4,6 +4,7 @@ param(
     [string]
     $vcvarsbat ,
     [string]
+    [Parameter(Mandatory = $true)]
     [ValidateSet('x86', 'x86_amd64', 'x86_x64', 'x86_arm', 'x86_arm64', 'amd64', 
         'x64', 'amd64_x86', 'x64_x86', 'amd64_arm', 'x64_arm',	 
         'amd64_arm64', 'x64_arm64')]
@@ -43,4 +44,3 @@ for ($i = 0; $i -lt 2; $i++) {
     }
 }
 Write-Warning 'Envirnment not initialized';
-
